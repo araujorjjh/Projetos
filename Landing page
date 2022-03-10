@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <Header>
+    <div id="Title">
+        <h1>Simpsons</h1>
+        <h1>bart</h1> 
+    </div>
+    <ul>
+        <a href="#"><li>Inicio</li></a>
+        <a href="#"><li>Serviços</li></a>
+        <a href="#"><li>Sobre</li></a>
+        <a href="#"><li>Contato</li></a>
+        <a href="#"><li id="conta-btn">Já tem uma conta?</li></a>
+    </ul>
+</Header>
+
+    <main>
+        <aside>
+            <h2><span> Inscreva-se agora</span></h2>
+            <h2>na NewsLatter</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, voluptatem molestiae quasi labore saepe qui vitae neque quaerat soluta! Tenetur magnam sapiente ipsam.</p>
+            <form action="">
+                <input type="text" placeholder="nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+    
+        <article>
+            <img class="bart" src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/simpsons-png-bart.png?fit=670%2C1024&ssl=1" alt="">
+        </article>
+    </main>
+
+    <footer>
+        <p id="obg"><i>Agradeço pela vinda, volte sempre.</i></p>
+    </footer>
+
+</body>
+</html>
